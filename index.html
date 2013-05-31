@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Smart:HR</title>
+        <meta name="description" content="A cloud based HR solution that empowers employees to obtain answers to all their HR questions – any time, anywhere and through any device">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- generic normalize css to iron our browser differences and layout quirks -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <!-- css specific to the singlePageLyout design -->
+        <link rel="stylesheet" href="css/singlePageLayout.css">
+        <!-- modernizr plugin used for testing browser capabilities and loading polyfills with yepnope -->
+        <script src="js/modernizr-2.6.2.min.js"></script>
+
+        <!-- check for media query support and load polyfill if not supported -->
+        <script>
+            yepnope({
+              test : Modernizr.mq('only all'),
+              nope : ['js/respond.min.js']
+            });
+        </script>
+
+        <!-- adds support for HTML5 tags to IE 6 to 8 -->
+        <!--[if lt IE 9]>
+           <script>
+              document.createElement('header');
+              document.createElement('nav');
+              document.createElement('section');
+              document.createElement('article');
+              document.createElement('aside');
+              document.createElement('footer');
+              document.createElement('video');
+           </script>
+        <![endif]-->
+
+    </head>
+    <body>
+
+        <header>
+            <div class="central-colmun">
+                <div class="logo">
+                    <div class="logo-text">Company Logo</div>
+                </div>
+                <nav id="inline">
+                    <ul>
+                       <li><a href="#section-one" class="nav-link">One</a></li>
+                       <li><a href="#section-two" class="nav-link">Two</a></li>
+                       <li><a href="#section-three" class="nav-link">Three</a></li>
+                       <li><a href="#section-four" class="nav-link">Four</a></li>
+                    </ul>                    
+                </nav>  
+                <nav id="dropdown-btn">Menu</nav>                         
+            </div>
+        </header>
+
+        <nav id="dropdown">
+            <div class="central-colmun">
+                <ul>
+                    <li><a href="#section-one" class="nav-link">One</a></li>
+                    <li><a href="#section-two" class="nav-link">Two</a></li>
+                    <li><a href="#section-three" class="nav-link">Three</a></li>
+                    <li><a href="#section-four" class="nav-link">Four</a></li>
+                </ul>
+            </div>
+        </nav>         
+
+        <a class="nav-anchor" id="section-one"></a>
+        <section id="one">
+            <div class="central-colmun">
+                <article>
+                    This is section 1 and <p>content</p>
+                    <p>content</p><p>content</p><p>content</p><p>content</p><p>content</p>                    
+                </article>
+            </div>
+        </section>
+
+        <a class="nav-anchor" id="section-two"></a>
+        <section id="two">
+            <div class="central-colmun">
+                <article>
+                    This is section 2
+                </article>
+            </div>
+        </section>
+
+        <a class="nav-anchor" id="section-three"></a>
+        <section id="three">
+            <div class="central-colmun">
+                <article>
+                    This is section 3
+                </article>
+            </div>
+        </section>
+
+        <a class="nav-anchor" id="section-four"></a>
+        <section id="four">
+            <div class="central-colmun">
+                <article>
+                    This is section 4
+                </article>
+            </div>
+        </section>                
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="js/singlePageLayout.js"></script>
+
+    </body>
+</html>

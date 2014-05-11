@@ -7,7 +7,7 @@ Super simple template for a responsive single page, multi-section, web app layou
 
 Below is a link to a demo of the code in this repo, in all it's barebones un-fancily-styled glory
 
-<a href="https://appasylum.net/demo/singlePageResponsiveTemplate/" target="_blank">Link to Demo</a>
+<a href="http://appasylum.net/demo/singlePageResponsiveTemplate/" target="_blank">Link to Demo</a>
 
 It's basically a four 'section' single page layout, in a nice centralised column, with animated navigation between the sections and some media queries to adjust the layout and show/hide an animated drop-down nav menu for narrow screens.
 
